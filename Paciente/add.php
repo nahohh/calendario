@@ -6,7 +6,6 @@ if ( isset($_POST) && !empty($_POST) ){
     $p = new Paciente();
     $save = $p->save($_POST);
 
-
 if ($save){
     $mensaje = '<div class="alert alert-success" >Sesión registrar</div>';
 }else{
