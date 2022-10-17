@@ -2,12 +2,9 @@
 include('../config/config.php');
 include_once('../config/Database.php');
 
-
 class Paciente
 {
-
     public $conexion;
-        
     function __construct()
     {
      $db = new Database();
@@ -15,11 +12,11 @@ class Paciente
     }
     function save($params)
 	{
-        $nombres = $params['nombres'];
+        $nombres = $params['nombres'];  
         $apellidos = $params['apellidos'];
         $celular = $params['celular'];
         $correo = $params['correo'];
-		
+	
 		$sql = "INSERT INTO pacientes SET nombres = '%s', apellidos = '%s', celular = '%s',  correo = '%s' ";
 		$insert = sprintf($sql, 
 							$this->escape($nombres), 
@@ -29,17 +26,13 @@ class Paciente
 		
         //$insert = "INSERT INTO pacientes VALUES ('$nombres', '$apellidos','$celular','$correo')";		
 		
-        //return mysqli_query($this->conexion, $insert);
-
         return mysqli_query($this->conexion, $insert);
-
+		
     }
-	
-	public function escape($value)
+
+    public function escape($value)
 	{
 		return mysqli_real_escape_string($this->conexion, $value);
 	}
-
 }
-
 ?>
