@@ -73,6 +73,18 @@ public function escape($value)
 	}
 
 
+   
+
+   function login($params)
+   {
+    $username = $params['username'];
+    $password = $params['password'];
+       $sql = 'SELECT * FROM usuarios WHERE username = "'.$username.'" AND pasword = "'.$password.'"';
+    
+       return mysqli_query($this->conexion, $sql);
+       
    }
+
+}
 
 ?>

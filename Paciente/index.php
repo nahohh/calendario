@@ -2,6 +2,16 @@
 include_once('../config/config.php');
 include('Paciente.php');
 
+    session_start();
+
+    if (!isset($_SESSION['login'])) {
+        echo '<script type="text/javascript">
+           window.location = "http://localhost/florecer/Paciente/login.php"
+      </script>';
+    }
+
+   
+
 $p = new Paciente();
 $data = $p->getALL();
 

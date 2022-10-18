@@ -18,10 +18,10 @@
             <a class="nav-link" href="<?= ROOT ?>/Paciente/add.php">Solicita tu cita</a>
 
         </li>
-        <!--
+       
         <li class="nav-item">
             <a class="nav-link" href="<?= ROOT ?>/Paciente/index.php">lista paciente</a>
 
         </li>
--->
+
 </nav>
