@@ -49,7 +49,7 @@ if (isset($_POST)&& !empty($_POST)){
                 <input type="text" name="nombres" id="nombres" placeholder="nombres del paciente" class="form-control" 
                 
                 
-                value="<?=$dp->ids ?>"/>
+                value="<?=$dp->id ?>"/>
  
 
                 <input type="hidden" name="id" id="id" placeholder="apellidos del paciente" class="form-control" value="<?=$dp->id ?>"/>
