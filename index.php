@@ -50,7 +50,7 @@ include('config/config.php');
         <div class="container text-center" style="padding: 5%;">
             <div class="row">
                 <div class="col-md-4">
-                    <p> Utilizando las últimas tendencias en tecnología se desarrolla una página web con el propósito de dar prioridad a la
+                    <p> Utilizando las últimas herramientas de la tecnología se desarrolla una página web con el propósito de dar prioridad a la
                         salud mental teniendo a disposición de un clic, acompañamiento y orientación en el proceso de la crianza.</p>
                 </div>
                 <div class="col-md-4">
@@ -119,7 +119,7 @@ include('config/config.php');
                 </div>
                 <div class="col-md-6">
                     <p>
-                        Como madres gestantes pasamos por cambios físicos y psicológicos, no siempre nos encontramos bien y podemos pedir ayuda profesional para que la gestación sea un camino amable y lleno de amor tanto para la madre como para el bebé en gestación.
+                        Las madres gestantes pasan por cambios físicos y psicológicos, no siempre nos encontramos bien y podemos pedir ayuda profesional para que la gestación sea un camino amable y lleno de amor tanto para la madre como para el bebé en gestación.
                     </p>
                 </div>
             </div>
@@ -196,7 +196,7 @@ include('config/config.php');
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="flush-headingThree">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                                    neuropsicología
+                                    Neuropsicología
                                 </button>
                             </h2>
                             <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">

@@ -12,10 +12,14 @@
 <nav class="navbar navbar-expand navbar-dark bg-dark mb-5">
     <ul class='navbar-nav'>
         <li class="nav-item">
-            <a class="nav-link" href="index.php" style="color:#EDD3AA;">Inicio</a>
+            <a class="nav-link" href="../index.php" style="color:#EDD3AA;">Inicio</a>
         </li>
         <li class="nav-item">
             <a class="nav-link" href="<?= ROOT ?>/Paciente/add.php">Solicita tu cita</a>
+
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="<?= ROOT ?>/Paciente/index.php">lista paciente</a>
 
         </li>
 </nav>

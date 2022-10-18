@@ -6,8 +6,8 @@
 class Database{
 
     public $host = 'localhost'; //servidor
-    public $user = 'root';
-    public $pass = '';
+    public $user = 'root';//usuario de phpmyadmin
+    public $pass = '';//contraseña
     public $db = 'bd_florecer';
     public $conexion;
 
